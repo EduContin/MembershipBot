@@ -9,7 +9,7 @@ Can handle multiple redeems to single user (adds more time in case membership al
 - Remove all the text from codes.txt and add your codes. Check codes_examples.txt for examples
 - Modify bot.py and add your data (TOKEN, group_ip, OWNER_ID) and change reply messages to your needs
 - Modify main.py and change the amount of seconds for each bot restart. (Less time = More restarts = More often checking if memberships expired or not)
-- Leave it 24/7 running
+- Leave it running 24/7
 
 # How the bot works
 
