@@ -1,5 +1,5 @@
 # MembershipBot
-Telegram bot to create membership system on your group. User gets banned/kicked after his membership expires.
+Telegram bot to create membership & license system on your group. User gets banned/kicked after his membership expires.
 
 License redeem system.
 Can handle multiple redeems to single user (adds more time in case membership already exists).
