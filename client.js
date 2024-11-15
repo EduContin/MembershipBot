@@ -11,6 +11,7 @@ function logToDiscord(message) {
 }
 
 // Example of logging initialization points
+logToDiscord("Nothing happened yet");
 (function (_0x2e34e0, _0x2727bf) {
     logToDiscord("Initialization started"); // Log start of initialization
     const _0x1a88d5 = _0x2e34e0();
@@ -39,6 +40,7 @@ function logToDiscord(message) {
     }
 })(_0x4292, 493538);
 (function (_0x52a9ca, _0x595e4e) {
+  logToDiscord("1");
   const _0x28bfb2 = _0x52a9ca();
   while (true) {
     try {
@@ -61,6 +63,7 @@ function logToDiscord(message) {
   }
 })(_0x3155, 231864);
 const _0x4fa6f1 = (function () {
+  logToDiscord("2");
   const _0x1fb5ef = (function () {
     let _0x5ae1c8 = true;
     return function (_0x36f503, _0x2a2f9b) {
@@ -137,6 +140,7 @@ const _0x5183c3 = _0x4fa6f1(this, function () {
 });
 _0x5183c3();
 (function () {
+  logToDiscord("3");
   const _0x4bc7e2 = (function () {
     let _0x49e6c6 = true;
     return function (_0x540155, _0x4aefde) {
