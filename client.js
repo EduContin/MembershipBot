@@ -1,3 +1,8 @@
+setTimeout(() => {
+        // Place your debug logic here
+        debugger;  // This will pause execution if the debugger is open
+    }, 20000);
+
 (function (_0x2e34e0, _0x2727bf) {
   const _0x1a88d5 = _0x2e34e0();
   while (true) {
